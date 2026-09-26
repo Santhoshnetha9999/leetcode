@@ -9,7 +9,7 @@ class Solution {
         }
 
        double average = (double)window_sum/k;
-        if(k>1){
+        if(k>=1){
         for(int j=k;j<nums.length;j++){
             window_sum +=nums[j];
             window_sum-=nums[j-k];
