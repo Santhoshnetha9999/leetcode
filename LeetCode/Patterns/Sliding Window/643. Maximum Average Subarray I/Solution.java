@@ -10,7 +10,7 @@ class Solution {
         }
 
        double average = (double)window_sum/k;
-        if(k>1){  
+        if(k>1 || k<l){  
             if(k==l){
                 return average;
             }else{
